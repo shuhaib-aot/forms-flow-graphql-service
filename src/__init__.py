@@ -1,4 +1,4 @@
+from src.db import init_formio_db, redis_cache
 from src.graphql.setup import grphql_app
-from src.db.formio import init_db
 
-__all__ = ["grphql_app", "init_db"]
+__all__ = ["grphql_app", "init_formio_db", "redis_cache"]
